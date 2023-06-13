@@ -1,0 +1,19 @@
+{
+  "DARK": "黑暗的",
+  "FEEDBACK_MESSAGE": "此按钮与开发人员共享执行结果。",
+  "FEEDBACK_SUBMITTED_TOAST": "谢谢你！ ",
+  "GPT_4_WARNING": "🚨 使用 GPT-4 可能很昂贵，因此请监控您的成本！",
+  "INFINITY": "无穷",
+  "LIGHT": "光",
+  "SYSTEM": "系统",
+  "UNTIL_ALL_TASKS_COMPLETED": "直到所有任务完成",
+  "NOTIFICATION": "通知",
+  "NOTIFICATION_LABEL": "🔔 所有任务已完成",
+  "NOTIFICATION_TITLE": "任务完成！",
+  "NOTIFICATION_NOT_SUPPORTED": "此浏览器不支持桌面通知。",
+  "NOTIFICATION_DINIED": "您拒绝了通知权限。请在浏览器设置中允许。",
+  "FIRST_TASK_PLACEHOLDER": "开发任务列表",
+  "ALERT_GPT_4_DISABLED": "您的 API 密钥没有 GPT-4 的访问权限。请选择其他模型并运行。",
+  "USER_INPUT_PLACEHOLDER": "在此处输入您的答案...",
+  "ERROR_CREATING_TASKS": "创建任务时出错。"
+}

@@ -1,0 +1,20 @@
+{
+  "FEEDBACK_MESSAGE": "這個按鈕可以與開發人員分享執行結果。",
+  "FEEDBACK_SUBMITTED_TOAST": "謝謝您！✨",
+  "INFINITY": "無限大",
+  "NOTIFICATION": "通知",
+  "NOTIFICATION_DENIED": "MISSING_TRANSLATION",
+  "NOTIFICATION_LABEL": "🔔 所有任務已完成",
+  "NOTIFICATION_NOT_SUPPORTED": "這個瀏覽器不支援桌面通知。",
+  "NOTIFICATION_TITLE": "任務完成！",
+  "UNTIL_ALL_TASKS_COMPLETED": "直到所有任務完成",
+  "GPT_4_WARNING": "🚨使用GPT-4可能很昂貴，所以要監控你的成本!",
+  "DARK": "黑暗",
+  "LIGHT": "光",
+  "SYSTEM": "系統",
+  "NOTIFICATION_DINIED": "你拒絕了通知權限。請在瀏覽器設置中允許它。",
+  "FIRST_TASK_PLACEHOLDER": "制定任務清單",
+  "ALERT_GPT_4_DISABLED": "您的 API 金鑰沒有 GPT-4 的存取權限。請選擇除 GPT-4 以外的模型並執行。",
+  "USER_INPUT_PLACEHOLDER": "在此輸入您的答案...",
+  "ERROR_CREATING_TASKS": "建立工作時發生錯誤。"
+}

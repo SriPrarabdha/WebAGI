@@ -1,0 +1,49 @@
+import axios from 'axios';
+
+export const webSearch = async (query: string) => {
+  try {
+    const response = await axios.get('https://serpapi.com/search', {
+      params: {
+        api_key: process.env.SEARP_API_KEY,
+        engine: 'google',
+        q: query,
+      },
+    });
+
+    return response.data.organic_results;
+  } catch (error) {
+    console.log('error: ', error);
+    return error;
+  }
+};
+
+type SearchResult = {
+  position: number;
+  title: string;
+  link: string;
+  snippet: string;
+};
+
+export const simplifySearchResults = (searchResults: SearchResult[]) => {
+  if (!Array.isArray(searchResults)) {
+    return [];
+  }
+
+  const simplifiedResults = [];
+  for (const result of searchResults) {
+    simplifiedResults.push({
+      position: result.position,
+      title: result.title,
+      link: result.link,
+      snippet: result.snippet,
+    });
+  }
+
+  // count the number of results
+  const maxCount = 5; // 3
+  if (simplifiedResults.length > maxCount) {
+    return simplifiedResults.slice(0, maxCount);
+  }
+
+  return simplifiedResults;
+};

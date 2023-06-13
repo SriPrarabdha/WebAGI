@@ -1,0 +1,19 @@
+{
+  "DARK": "Mörk",
+  "FEEDBACK_MESSAGE": "Den här knappen delar körningsresultaten med utvecklaren.",
+  "FEEDBACK_SUBMITTED_TOAST": "Tack! ",
+  "GPT_4_WARNING": "🚨 ATT ANVÄNDA GPT-4 POTENTIELLT DYRT SÅ ÖVERVAK DINA KOSTNADER!",
+  "INFINITY": "Oändlighet",
+  "LIGHT": "Ljus",
+  "SYSTEM": "Systemet",
+  "UNTIL_ALL_TASKS_COMPLETED": "Tills alla uppgifter är klara",
+  "NOTIFICATION": "Notifikation",
+  "NOTIFICATION_LABEL": "🔔 Alla uppgifter slutförda",
+  "NOTIFICATION_TITLE": "Uppgift slutförd!",
+  "NOTIFICATION_NOT_SUPPORTED": "Denna webbläsare stöder inte skrivbordsaviseringar.",
+  "NOTIFICATION_DINIED": "Du nekade aviseringstillståndet. Vänligen tillåt det i webbläsarinställningarna.",
+  "FIRST_TASK_PLACEHOLDER": "Upprätta en uppgiftslista",
+  "ALERT_GPT_4_DISABLED": "Din API-nyckel har inte åtkomstbehörighet till GPT-4. Välj ett annat modell än GPT-4 och kör det.",
+  "USER_INPUT_PLACEHOLDER": "Skriv ditt svar här...",
+  "ERROR_CREATING_TASKS": "Fel vid skapande av uppgifter"
+}

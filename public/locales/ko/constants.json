@@ -1,0 +1,19 @@
+{
+  "DARK": "어두운",
+  "FEEDBACK_MESSAGE": "이 버튼은 실행 결과를 개발자와 공유합니다.",
+  "FEEDBACK_SUBMITTED_TOAST": "감사합니다! ",
+  "GPT_4_WARNING": "🚨 GPT-4를 사용하면 잠재적으로 비용이 많이 들 수 있으므로 비용을 모니터링하십시오!",
+  "INFINITY": "무한대",
+  "LIGHT": "빛",
+  "SYSTEM": "체계",
+  "UNTIL_ALL_TASKS_COMPLETED": "모든 작업이 완료될 때까지",
+  "NOTIFICATION": "알림",
+  "NOTIFICATION_LABEL": "🔔 모든 작업 완료",
+  "NOTIFICATION_TITLE": "작업 완료!",
+  "NOTIFICATION_NOT_SUPPORTED": "이 브라우저는 데스크톱 알림을 지원하지 않습니다.",
+  "NOTIFICATION_DINIED": "알림 권한을 거부���습니다. 브라우저 설정에서 허용해 주세요.",
+  "FIRST_TASK_PLACEHOLDER": "할 일 목록 개발",
+  "ALERT_GPT_4_DISABLED": "귀하의 API 키는 GPT-4에 대한 액세스 권한이 없습니다. GPT-4가 아닌 다른 모델을 선택하고 실행하십시오.",
+  "USER_INPUT_PLACEHOLDER": "여기에 답변을 입력하세요...",
+  "ERROR_CREATING_TASKS": "작업 생성 중 오류가 발생하였습니다"
+}

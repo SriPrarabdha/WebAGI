@@ -1,0 +1,19 @@
+{
+  "DARK": "Oscuro",
+  "FEEDBACK_MESSAGE": "Este botón comparte los resultados de la ejecución con el desarrollador.",
+  "FEEDBACK_SUBMITTED_TOAST": "¡Gracias! ",
+  "GPT_4_WARNING": "🚨 ¡EL USO DE GPT-4 POTENCIALMENTE CARO, ASÍ QUE CONTROLA TUS COSTOS!",
+  "INFINITY": "Infinidad",
+  "LIGHT": "Luz",
+  "SYSTEM": "Sistema",
+  "UNTIL_ALL_TASKS_COMPLETED": "Hasta Todas las tareas completadas",
+  "NOTIFICATION": "Notificación",
+  "NOTIFICATION_LABEL": "🔔 Todas las tareas completadas",
+  "NOTIFICATION_TITLE": "¡Tarea completada!",
+  "NOTIFICATION_NOT_SUPPORTED": "Este navegador no admite notificaciones de escritorio.",
+  "NOTIFICATION_DINIED": "Denegó el permiso de notificación. Por favor, permítalo en la configuración del navegador.",
+  "FIRST_TASK_PLACEHOLDER": "Desarrollar una lista de tareas.",
+  "ALERT_GPT_4_DISABLED": "Tu clave de API no tiene derechos de acceso a GPT-4. Por favor, selecciona otro modelo que no sea GPT-4 y ejecútalo.",
+  "USER_INPUT_PLACEHOLDER": "Ingresa tu respuesta aquí...",
+  "ERROR_CREATING_TASKS": "Error al crear tareas"
+}

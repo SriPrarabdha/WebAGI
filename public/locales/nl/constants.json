@@ -1,0 +1,19 @@
+{
+  "DARK": "Donker",
+  "FEEDBACK_MESSAGE": "Deze knop deelt de uitvoeringsresultaten met de ontwikkelaar.",
+  "FEEDBACK_SUBMITTED_TOAST": "Bedankt! ",
+  "GPT_4_WARNING": "🚨 HET GEBRUIK VAN GPT-4 IS MOGELIJK DUUR, DUS CONTROLEER UW KOSTEN!",
+  "INFINITY": "Oneindigheid",
+  "LIGHT": "Licht",
+  "SYSTEM": "Systeem",
+  "UNTIL_ALL_TASKS_COMPLETED": "Totdat alle taken zijn voltooid",
+  "NOTIFICATION": "Melding",
+  "NOTIFICATION_LABEL": "🔔 Alle taken voltooid",
+  "NOTIFICATION_TITLE": "Taak voltooid!",
+  "NOTIFICATION_NOT_SUPPORTED": "Deze browser ondersteunt geen desktopmeldingen.",
+  "NOTIFICATION_DINIED": "U heeft de meldingstoestemming geweigerd. Sta dit toe in de browserinstellingen.",
+  "FIRST_TASK_PLACEHOLDER": "Maak een takenlijst",
+  "ALERT_GPT_4_DISABLED": "Uw API-sleutel heeft geen toegangsrechten voor GPT-4. Selecteer alstublieft een ander model dan GPT-4 en voer het uit.",
+  "USER_INPUT_PLACEHOLDER": "Voer hier uw antwoord in...",
+  "ERROR_CREATING_TASKS": "Fout bij het aanmaken van taken"
+}

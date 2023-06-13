@@ -1,0 +1,19 @@
+{
+  "DARK": "Mørk",
+  "FEEDBACK_MESSAGE": "Denne knap deler udførelsesresultaterne med udvikleren.",
+  "FEEDBACK_SUBMITTED_TOAST": "Tak skal du have! ",
+  "GPT_4_WARNING": "🚨 BRUG AF GPT-4 POTENTIELT DYRT SÅ OVERVÅG DINE OMKOSTNINGER!",
+  "INFINITY": "Uendelighed",
+  "LIGHT": "Lys",
+  "SYSTEM": "System",
+  "UNTIL_ALL_TASKS_COMPLETED": "Indtil alle opgaver er udført",
+  "NOTIFICATION": "Notifikation",
+  "NOTIFICATION_LABEL": "🔔 Alle opgaver er fuldført",
+  "NOTIFICATION_TITLE": "Opgave fuldført!",
+  "NOTIFICATION_NOT_SUPPORTED": "Denne browser understøtter ikke skrivebordsnotifikationer.",
+  "NOTIFICATION_DINIED": "Du nægtede notifikationstilladelsen. Tillad det venligst i browserindstillingerne.",
+  "FIRST_TASK_PLACEHOLDER": "Udvikle en opgaveliste.",
+  "ALERT_GPT_4_DISABLED": "Din API-nøgle har ikke adgangsrettigheder til GPT-4. Vælg venligst en anden model end GPT-4 og kør den.",
+  "USER_INPUT_PLACEHOLDER": "Indtast dit svar her...",
+  "ERROR_CREATING_TASKS": "Fehler beim Erstellen von Aufgaben"
+}

@@ -1,0 +1,19 @@
+{
+  "DARK": "Karanlık",
+  "FEEDBACK_MESSAGE": "Bu buton yürütme sonuçlarını geliştirici ile paylaşır.",
+  "FEEDBACK_SUBMITTED_TOAST": "Teşekkür ederim! ",
+  "GPT_4_WARNING": "🚨 GPT-4 KULLANIMI PAHALI OLABİLİR, BU NEDENLE MALİYETLERİNİZİ İZLEYİN!",
+  "INFINITY": "Sonsuzluk",
+  "LIGHT": "Işık",
+  "SYSTEM": "sistem",
+  "UNTIL_ALL_TASKS_COMPLETED": "Tüm görevler tamamlanana kadar",
+  "NOTIFICATION": "Bildirim",
+  "NOTIFICATION_LABEL": "🔔 Tüm görevler tamamlandı",
+  "NOTIFICATION_TITLE": "Görev tamamlandı!",
+  "NOTIFICATION_NOT_SUPPORTED": "Bu tarayıcı masaüstü bildirimlerini desteklemiyor.",
+  "NOTIFICATION_DINIED": "Bildirim iznini reddettiniz. Lütfen tarayıcı ayarlarında izin verin.",
+  "FIRST_TASK_PLACEHOLDER": "Görev listesi oluşturun",
+  "ALERT_GPT_4_DISABLED": "API anahtarınızın GPT-4'e erişim hakları yok. Lütfen GPT-4'den farklı bir model seçin ve çalıştırın.",
+  "USER_INPUT_PLACEHOLDER": "Buraya cevabınızı girin...",
+  "ERROR_CREATING_TASKS": "Görevler oluşturulurken hata oluştu"
+}

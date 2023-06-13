@@ -1,0 +1,19 @@
+{
+  "DARK": "Tumma",
+  "FEEDBACK_MESSAGE": "Tämä painike jakaa suoritustulokset kehittäjän kanssa.",
+  "FEEDBACK_SUBMITTED_TOAST": "Kiitos! ",
+  "GPT_4_WARNING": "🚨 GPT-4:N KÄYTTÄMINEN MAHDOLLISESTI KALLISIA, JOTEN SEURAA KUSTANNUKSIASI!",
+  "INFINITY": "ääretön",
+  "LIGHT": "Kevyt",
+  "SYSTEM": "Järjestelmä",
+  "UNTIL_ALL_TASKS_COMPLETED": "Kunnes Kaikki tehtävät on suoritettu",
+  "NOTIFICATION": "Ilmoitus",
+  "NOTIFICATION_LABEL": "🔔 Kaikki tehtävät suoritettu",
+  "NOTIFICATION_TITLE": "Tehtävä suoritettu!",
+  "NOTIFICATION_NOT_SUPPORTED": "Tämä selain ei tue työpöytäilmoituksia.",
+  "NOTIFICATION_DINIED": "Kielsit ilmoitusluvan. Salli se selaimen asetuksissa.",
+  "FIRST_TASK_PLACEHOLDER": "Kehitä tehtäväluettelo.",
+  "ALERT_GPT_4_DISABLED": "API-avaimellasi ei ole käyttöoikeuksia GPT-4:ään. Valitse toinen malli ja suorita se.",
+  "USER_INPUT_PLACEHOLDER": "Kirjoita vastauksesi tähän...",
+  "ERROR_CREATING_TASKS": "Tehtävien luominen ei onnistunut virheen vuoksi"
+}

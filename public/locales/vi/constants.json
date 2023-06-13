@@ -1,0 +1,19 @@
+{
+  "DARK": "Tối tăm",
+  "FEEDBACK_MESSAGE": "Nút này chia sẻ kết quả thực hiện với nhà phát triển.",
+  "FEEDBACK_SUBMITTED_TOAST": "Cảm ơn! ",
+  "GPT_4_WARNING": "🚨 SỬ DỤNG GPT-4 CÓ ​​KHẢ NĂNG Đắt VÌ VÌ VẬY THEO DÕI CHI PHÍ CỦA BẠN!",
+  "INFINITY": "vô cực",
+  "LIGHT": "Ánh sáng",
+  "SYSTEM": "Hệ thống",
+  "UNTIL_ALL_TASKS_COMPLETED": "Cho đến khi tất cả các nhiệm vụ hoàn thành",
+  "NOTIFICATION": "Thông báo",
+  "NOTIFICATION_LABEL": "🔔 Tất cả các nhiệm vụ đã hoàn thành",
+  "NOTIFICATION_TITLE": "Nhiệm vụ hoàn thành!",
+  "NOTIFICATION_NOT_SUPPORTED": "Trình duyệt này không hỗ trợ thông báo máy tính để bàn.",
+  "NOTIFICATION_DINIED": "Bạn đã từ chối quyền thông báo. Vui lòng cho phép trong cài đặt trình duyệt.",
+  "FIRST_TASK_PLACEHOLDER": "Phát triển một danh sách công việc.",
+  "ALERT_GPT_4_DISABLED": "Khóa API của bạn không có quyền truy cập vào GPT-4. Vui lòng chọn một mô hình khác mà không phải là GPT-4 và chạy lại.",
+  "USER_INPUT_PLACEHOLDER": "Nhập câu trả lời của bạn ở đây...",
+  "ERROR_CREATING_TASKS": "Lỗi khi tạo các nhiệm vụ"
+}

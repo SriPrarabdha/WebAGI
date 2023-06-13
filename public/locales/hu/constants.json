@@ -1,0 +1,19 @@
+{
+  "GPT_4_WARNING": "🚨 A GPT-4 HASZNÁLATA POTENCIÁLISAN DRÁGA, EZÉRT FIGYELJE A KÖLTSÉGEIT!",
+  "INFINITY": "Végtelen",
+  "UNTIL_ALL_TASKS_COMPLETED": "Amíg az összes feladat el nem készül",
+  "FEEDBACK_MESSAGE": "Ez a gomb megosztja a végrehajtási eredményeket a fejlesztővel.",
+  "FEEDBACK_SUBMITTED_TOAST": "Köszönöm! ✨",
+  "DARK": "Sötét",
+  "LIGHT": "Világos",
+  "SYSTEM": "Rendszer",
+  "NOTIFICATION": "Értesítés",
+  "NOTIFICATION_LABEL": "🔔 Az összes feladat befejeződött",
+  "NOTIFICATION_TITLE": "Feladat befejezve!",
+  "NOTIFICATION_NOT_SUPPORTED": "Ez a böngésző nem támogatja az asztali értesítéseket.",
+  "NOTIFICATION_DINIED": "Elutasította az értesítési engedélyt. Kérjük, engedélyezze azt a böngésző beállításaiban.",
+  "FIRST_TASK_PLACEHOLDER": "A feladatlista kidolgozása",
+  "ALERT_GPT_4_DISABLED": "Az API-kulcsodnak nincsenek hozzáférési jogai a GPT-4-hez. Kérlek válassz egy másik modellt, majd futtasd újra.",
+  "USER_INPUT_PLACEHOLDER": "Adja meg a válaszát itt...",
+  "ERROR_CREATING_TASKS": "A feladatok létrehozása során hiba történt"
+}

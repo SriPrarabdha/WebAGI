@@ -1,0 +1,19 @@
+{
+  "DARK": "Temný",
+  "FEEDBACK_MESSAGE": "Toto tlačítko sdílí výsledky provádění s vývojářem.",
+  "FEEDBACK_SUBMITTED_TOAST": "Děkuji! ",
+  "GPT_4_WARNING": "🚨 POUŽÍVÁNÍ GPT-4 JE POTENCIÁLNĚ DRAHÉ, TAKŽE SLEDUJTE SVÉ NÁKLADY!",
+  "INFINITY": "Nekonečno",
+  "LIGHT": "Světlo",
+  "SYSTEM": "Systém",
+  "UNTIL_ALL_TASKS_COMPLETED": "Do dokončení všech úkolů",
+  "NOTIFICATION": "Oznámení",
+  "NOTIFICATION_LABEL": "🔔 Všechny úkoly dokončeny",
+  "NOTIFICATION_TITLE": "Úkol dokončen!",
+  "NOTIFICATION_NOT_SUPPORTED": "Tento prohlížeč nepodporuje oznámení na ploše.",
+  "NOTIFICATION_DINIED": "Odmítli jste povolení oznámení. Povolte jej v nastavení prohlížeče.",
+  "FIRST_TASK_PLACEHOLDER": "Vypracujte seznam úkolů",
+  "ALERT_GPT_4_DISABLED": "Váš API klíč nemá přístupová práva k modelu GPT-4. Prosím zvolte jiný model a spusťte ho.",
+  "USER_INPUT_PLACEHOLDER": "Zadejte svou odpověď zde...",
+  "ERROR_CREATING_TASKS": "Chyba při vytváření úkolů"
+}

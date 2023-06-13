@@ -1,0 +1,19 @@
+{
+  "DARK": "Tamsus",
+  "FEEDBACK_MESSAGE": "Šis mygtukas bendrina vykdymo rezultatus su kūrėju.",
+  "FEEDBACK_SUBMITTED_TOAST": "Ačiū! ",
+  "GPT_4_WARNING": "🚨 GPT-4 NAUDOJIMAS POTENCIALIAI BRANGI, TODĖL STEBĖKITE SAVO IŠLAIDAS!",
+  "INFINITY": "Begalybė",
+  "LIGHT": "Šviesa",
+  "SYSTEM": "Sistema",
+  "UNTIL_ALL_TASKS_COMPLETED": "Kol visos užduotys bus baigtos",
+  "NOTIFICATION": "Pranešimas",
+  "NOTIFICATION_LABEL": "🔔 Visos užduotys atliktos",
+  "NOTIFICATION_TITLE": "Užduotis atlikta!",
+  "NOTIFICATION_NOT_SUPPORTED": "Ši naršyklė nepalaiko darbalaukio pranešimų.",
+  "NOTIFICATION_DINIED": "Jūs atmetėte pranešimo leidimą. Prašome leisti tai naršyklės nustatymuose.",
+  "FIRST_TASK_PLACEHOLDER": "Sukurkite užduočių sąrašą.",
+  "ALERT_GPT_4_DISABLED": "Jūsų API raktas neturi prieigos teisių prie GPT-4. Prašome pasirinkti kitą modelį nei GPT-4 ir paleisti jį.",
+  "USER_INPUT_PLACEHOLDER": "Įveskite savo atsakymą čia...",
+  "ERROR_CREATING_TASKS": "Klaida kuriant užduotis"
+}

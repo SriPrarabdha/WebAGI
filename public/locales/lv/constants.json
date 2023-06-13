@@ -1,0 +1,19 @@
+{
+  "DARK": "Tumšs",
+  "FEEDBACK_MESSAGE": "Šī poga koplieto izpildes rezultātus ar izstrādātāju.",
+  "FEEDBACK_SUBMITTED_TOAST": "Paldies! ",
+  "GPT_4_WARNING": "🚨 IZMANTOJOT GPT-4 POTENCIĀLI DĀRGI, TĀPĒC PĀRSKATIET SAVAS IZMAKSAS!",
+  "INFINITY": "Bezgalība",
+  "LIGHT": "Gaisma",
+  "SYSTEM": "Sistēma",
+  "UNTIL_ALL_TASKS_COMPLETED": "Līdz visi uzdevumi ir pabeigti",
+  "NOTIFICATION": "Paziņojums",
+  "NOTIFICATION_LABEL": "🔔 Visi uzdevumi pabeigti",
+  "NOTIFICATION_TITLE": "Uzdevums pabeigts!",
+  "NOTIFICATION_NOT_SUPPORTED": "Šī pārlūkprogramma neatbalsta darbvirsmas paziņojumus.",
+  "NOTIFICATION_DINIED": "Jūs atteicāties no paziņojumu atļaujas. Lūdzu, atļaujiet to pārlūkprogrammas iestatījumos.",
+  "FIRST_TASK_PLACEHOLDER": "Izveidot uzdevumu sarakstu.",
+  "ALERT_GPT_4_DISABLED": "Jūsu API atslēga nav piekļuves tiesību GPT-4. Lūdzu, izvēlieties citu modeli nekā GPT-4 un palaist to.",
+  "USER_INPUT_PLACEHOLDER": "Ievadiet savu atbildi šeit...",
+  "ERROR_CREATING_TASKS": "Kļūda, izveidojot uzdevumus"
+}
