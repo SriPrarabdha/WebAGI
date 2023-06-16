@@ -46,28 +46,28 @@ function Home() {
   return (
     <>
       <Head>
-        <title>BabyAGI-UI</title>
+        <title>WebAGI</title>
         <meta
           name="description"
-          content="BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
+          content=" WebAGI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="BabyAGI-UI" />
         <meta
           property="og:description"
-          content="BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
+          content="WebAGI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
         />
-        <meta property="og:url" content="https://babyagi-ui.vercel.app/" />
+        <meta property="og:url" content="https://web-agi.vercel.app/" />
         <meta
           property="og:image"
           content="https://babyagi-ui.vercel.app/og-image.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="BabyAGI-UI" />
+        <meta name="twitter:title" content="WebAGI" />
         <meta
           name="twitter:description"
-          content="BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
+          content="WebAGI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
         />
         <meta name="twitter:image" content="/og-image.png" />
       </Head>
