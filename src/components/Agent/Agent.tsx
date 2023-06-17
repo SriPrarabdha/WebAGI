@@ -23,7 +23,7 @@ import { BabyAGI } from '@/agents/babyagi';
 import { BabyBeeAGI } from '@/agents/babybeeagi/agent';
 import { BabyCatAGI } from '@/agents/babycatagi/agent';
 import { BabyDeerAGI } from '@/agents/babydeeragi/executer';
-import lawGPT from '@/agents/common/tools/criminalLaw';
+import lawGPT from '@/agents/lawgpt/criminalLaw';
 import { AGENT, ITERATIONS, MODELS, SETTINGS_KEY } from '@/utils/constants';
 import { toast } from 'sonner';
 import { v4 as uuidv4 } from 'uuid';
@@ -50,7 +50,7 @@ export const Agent: FC = () => {
     type: 'ready',
   });
   const [agent, setAgent] = useState<
-    BabyAGI | BabyBeeAGI | BabyCatAGI | BabyDeerAGI |null
+    BabyAGI | BabyBeeAGI | BabyCatAGI | BabyDeerAGI | lawGPT | null
   >(null);
   const [selectedAgent, setSelectedAgent] = useState<SelectItem>(AGENT[0]);
   const { i18n } = useTranslation();
@@ -240,6 +240,9 @@ export const Agent: FC = () => {
           language,
           verbose,
         );
+        break;
+      case 'lawgpt':
+        agent = lawGPT(objective);
         break;
     }
     setAgent(agent);
