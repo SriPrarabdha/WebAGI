@@ -12,7 +12,7 @@ import {
 } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import { AgentCollapsible } from './AgentCollapsible';
 import { useTheme } from 'next-themes';
-import OutputMsg from './OutputMsg';
+
 
 interface AgentMessageProps {
   message: Message;
@@ -83,13 +83,14 @@ const AgentMessage: FC<AgentMessageProps> = ({
             <summary className="pt-0.5 text-lg font-bold">
               {translate('SUMMARY')}
             </summary>
+            {contents}
           </details>
         ) : message.status?.type === 'creating-stream' ||
           message.status?.type === 'executing-stream' ||
           message.type === 'search-logs' ||
           message.type === 'task-execute' ? (
           <AgentCollapsible title={simpleTitle} isOpen={message.open}>
-            
+            {contents}
           </AgentCollapsible>
         ) : (
           contents

@@ -37,8 +37,6 @@ import { MessageSummaryCard } from './MessageSummaryCard';
 import { useTranslation } from 'next-i18next';
 import { AgentMessageBlock } from './AgentMessageBlock';
 
-import OutputMsg  from './OutputMsg';
-
 export const Agent: FC = () => {
   const [model, setModel] = useState<SelectItem>(MODELS[1]);
   const [iterations, setIterations] = useState<SelectItem>(ITERATIONS[0]);
@@ -174,8 +172,6 @@ export const Agent: FC = () => {
     setExecuting(false);
   };
 
-  const [caseInfo , setCaseInfo] =useState<string>('');
-
   const startHandler = async (msg:string) => {
     if (needSettingsAlert()) {
       alert(translate('ALERT_SET_UP_API_KEY', 'agent'));
@@ -256,13 +252,18 @@ export const Agent: FC = () => {
       agent: selectedAgent.id,
       iterations: iterations.id,
     });
-
     const resp=await lawGPT(msg);
-    setCaseInfo(resp) ;
     console.log(resp);
-      // console.log(caseInfo)
+    const message: Message = {
+      id: messages.length + 1,
+      type: 'objective',
+      text: resp,
+    };
+    messageHandler(message);
+    console.log(messages);
+    console.log(messageBlocks);
+      
   };
-  // console.log(caseInfo)
 
   const stopHandler = () => {
     setExecuting(false);
@@ -436,16 +437,9 @@ export const Agent: FC = () => {
             />
           ))}
           {isExecuting && (
-            <>
             <AgentMessage message={loadingAgentMessage(agentStatus)} />
-            </>
           )}
-          {!isExecuting && messages.length > 0 && (
-            <>
-            <OutputMsg message={caseInfo}/>
-            <AgentMessageFooter />
-            </>
-          )}
+          {!isExecuting && messages.length > 0 && <AgentMessageFooter />}
           <div
             className="h-[162px] bg-white dark:bg-[#343541]"
             ref={messagesEndRef}
