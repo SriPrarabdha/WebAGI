@@ -9,8 +9,7 @@ const lawGPT = async (question: string) => {
       const response = await fetch(url);
       // console.log(url);
       const data = await response.text();
-    
-
+      // console.log(data);
       return data;
     } catch (error) {
       console.error(`Error while fetching the URL: ${error}`);
