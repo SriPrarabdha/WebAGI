@@ -172,7 +172,7 @@ export const Agent: FC = () => {
     setExecuting(false);
   };
 
-  const startHandler = async () => {
+  const startHandler = async (msg:string) => {
     if (needSettingsAlert()) {
       alert(translate('ALERT_SET_UP_API_KEY', 'agent'));
       return;
@@ -184,7 +184,7 @@ export const Agent: FC = () => {
         return;
       }
     }
-
+   
     setMessages([]);
     setExecuting(true);
     const execution = await saveNewData();
@@ -250,6 +250,8 @@ export const Agent: FC = () => {
       agent: selectedAgent.id,
       iterations: iterations.id,
     });
+    const resp=await lawGPT(msg);
+    console.log(msg);
   };
 
   const stopHandler = () => {
