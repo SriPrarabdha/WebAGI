@@ -17,6 +17,8 @@ class Translator {
       process.env.OPENAI_TRANSLATION_METHOD ||
       'chat';
 
+
+      
     if (
       this.translatorService === 'openai' &&
       process.env.OPENAI_API_KEY !== ''
