@@ -53,7 +53,7 @@ function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="BabyAGI-UI" />
+        <meta property="og:title" content="WebAGI" />
         <meta
           property="og:description"
           content="WebAGI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
@@ -61,7 +61,7 @@ function Home() {
         <meta property="og:url" content="https://web-agi.vercel.app/" />
         <meta
           property="og:image"
-          content="https://babyagi-ui.vercel.app/og-image.png"
+          content="https://web-agi.vercel.app/og-image.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="WebAGI" />
