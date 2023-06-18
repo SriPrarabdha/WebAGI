@@ -12,6 +12,7 @@ import {
 } from '@radix-ui/react-icons';
 import { ThumbsUp, ThumbsDown } from 'react-feather';
 import { FC } from 'react';
+import { val } from 'cheerio/lib/api/attributes';
 
 type InputProps = {
   value: string;

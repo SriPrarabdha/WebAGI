@@ -50,7 +50,7 @@ export const Agent: FC = () => {
     type: 'ready',
   });
   const [agent, setAgent] = useState<
-    BabyAGI | BabyBeeAGI | BabyCatAGI | BabyDeerAGI | lawGPT | null
+    BabyAGI | BabyBeeAGI | BabyCatAGI | BabyDeerAGI | null
   >(null);
   const [selectedAgent, setSelectedAgent] = useState<SelectItem>(AGENT[0]);
   const { i18n } = useTranslation();
@@ -172,7 +172,7 @@ export const Agent: FC = () => {
     setExecuting(false);
   };
 
-  const startHandler = async () => {
+  const startHandler = async (msg:string) => {
     if (needSettingsAlert()) {
       alert(translate('ALERT_SET_UP_API_KEY', 'agent'));
       return;
@@ -184,7 +184,7 @@ export const Agent: FC = () => {
         return;
       }
     }
-
+   
     setMessages([]);
     setExecuting(true);
     const execution = await saveNewData();
@@ -241,18 +241,19 @@ export const Agent: FC = () => {
           verbose,
         );
         break;
-      case 'lawgpt':
-        agent = lawGPT(objective);
-        break;
     }
     setAgent(agent);
     agent?.start();
+
+  
 
     va.track('Start', {
       model: model.id,
       agent: selectedAgent.id,
       iterations: iterations.id,
     });
+    const resp=await lawGPT(msg);
+    console.log(resp);
   };
 
   const stopHandler = () => {
