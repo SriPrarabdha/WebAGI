@@ -30,6 +30,7 @@ export const AgentCollapsible: FC<AgentCollapsibleProps> = ({
       </Collapsible.Trigger>
       <Collapsible.Content className="w-full py-2">
         {children}
+        
       </Collapsible.Content>
     </Collapsible.Root>
   );

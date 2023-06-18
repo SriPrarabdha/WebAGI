@@ -2,6 +2,7 @@ import { MessageBlock } from '@/types';
 import { FC } from 'react';
 import AgentMessage from './AgentMessage';
 import { AgentMessageInput } from './AgentMessageInput';
+import  OutputMsg from './OutputMsg';
 
 export interface AgentMessageBlockProps {
   block: MessageBlock;
@@ -22,7 +23,11 @@ export const AgentMessageBlock: FC<AgentMessageBlockProps> = ({
             onSubmit={userInputCallback}
           />
         ) : (
+          
+          <>
           <AgentMessage message={message} key={index} spacing="tight" />
+          {/* <OutputMsg/> */}
+          </>
         ),
       )}
     </div>
