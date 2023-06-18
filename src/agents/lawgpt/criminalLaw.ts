@@ -15,4 +15,6 @@ const lawGPT = async (question: string) => {
     }
   };
 
+   
+
 export default lawGPT;

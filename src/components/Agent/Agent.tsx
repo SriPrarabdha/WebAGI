@@ -41,9 +41,15 @@ export const Agent: FC = () => {
   const [model, setModel] = useState<SelectItem>(MODELS[1]);
   const [iterations, setIterations] = useState<SelectItem>(ITERATIONS[0]);
   const [objective, setObjective] = useState<string>('');
+  console.log(objective);
+
   const [firstTask, setFirstTask] = useState<string>(
     translate('FIRST_TASK_PLACEHOLDER', 'constants'),
   );
+
+    //// law gpt fn
+  const [caseInput , setCaseInput] = useState("");
+
   const [messages, setMessages] = useState<Message[]>([]);
   const [messageBlocks, setMessageBlocks] = useState<MessageBlock[]>([]);
   const [agentStatus, setAgentStatus] = useState<AgentStatus>({
@@ -163,8 +169,10 @@ export const Agent: FC = () => {
     });
   };
 
+  
   const inputHandler = (value: string) => {
     setObjective(value);
+
   };
 
   const cancelHandle = () => {
@@ -172,7 +180,24 @@ export const Agent: FC = () => {
     setExecuting(false);
   };
 
+  const [outputData , setOutputData] = useState<any>({});
+  
+const lawGPT = async () => {
+  console.log('request send')
+  const url = "https://langchain-e2c6684ec1.wolf.jina.ai/"+objective
+  try {
+    const response = await fetch(url);
+    console.log(response.json);
+    return response.json;
+  } catch (error) {
+    console.error(`Error while fetching the URL: ${error}`);
+    return '';
+  }
+};
+
+
   const startHandler = async () => {
+    console.log('Button pressed')
     if (needSettingsAlert()) {
       alert(translate('ALERT_SET_UP_API_KEY', 'agent'));
       return;
@@ -352,6 +377,16 @@ export const Agent: FC = () => {
     }
   };
 
+  // async function getCaseInfo(){
+  //   console.log('Button pressed');
+  //   try{
+  //     cosnt serverResp = await fetch(
+
+  //     )
+  //   }
+  // }
+
+
   const userInputHandler = async (text: string) => {
     if (agent instanceof BabyDeerAGI) {
       agent.userInput(text);
@@ -439,7 +474,7 @@ export const Agent: FC = () => {
       <Input
         value={objective}
         onChange={inputHandler}
-        onStart={startHandler}
+        onStart={lawGPT}
         onStop={stopHandler}
         onClear={clearHandler}
         onCopy={copyHandler}
@@ -453,3 +488,6 @@ export const Agent: FC = () => {
     </div>
   );
 };
+
+
+
