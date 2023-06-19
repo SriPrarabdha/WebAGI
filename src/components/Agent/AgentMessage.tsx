@@ -13,7 +13,6 @@ import {
 import { AgentCollapsible } from './AgentCollapsible';
 import { useTheme } from 'next-themes';
 
-
 interface AgentMessageProps {
   message: Message;
   spacing?: 'normal' | 'tight';
@@ -25,6 +24,7 @@ const AgentMessage: FC<AgentMessageProps> = ({
 }) => {
   const simpleTitle = message.title?.split('(')[0] ?? ''; // ex: 'Creating tasks... (*This process takes time. Please wait...*)'
   const { theme, systemTheme } = useTheme();
+  
   const [highlightStyle, setHighlightStyle] = useState(oneLight);
   const py = spacing === 'normal' ? 'py-4 md:py-6' : 'py-0';
 
