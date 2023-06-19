@@ -2,7 +2,7 @@ import { MessageBlock } from '@/types';
 import { FC } from 'react';
 import AgentMessage from './AgentMessage';
 import { AgentMessageInput } from './AgentMessageInput';
-import  OutputMsg from './OutputMsg';
+
 
 export interface AgentMessageBlockProps {
   block: MessageBlock;
