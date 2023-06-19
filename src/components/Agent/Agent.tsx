@@ -254,6 +254,16 @@ export const Agent: FC = () => {
     });
     const resp=await lawGPT(msg);
     console.log(resp);
+    
+    const message: Message = {
+      id: 1,
+      type: 'objective',
+      text: resp,
+    };
+    messageHandler(message);
+    console.log(messages);
+    console.log(execution)
+      
   };
 
   const stopHandler = () => {
