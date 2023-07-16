@@ -172,7 +172,7 @@ export const Agent: FC = () => {
     setExecuting(false);
   };
 
-  const startHandler = async (msg:string) => {
+  const startHandler = async (msg: string) => {
     if (needSettingsAlert()) {
       alert(translate('ALERT_SET_UP_API_KEY', 'agent'));
       return;
@@ -184,7 +184,7 @@ export const Agent: FC = () => {
         return;
       }
     }
-   
+
     setMessages([]);
     setExecuting(true);
     const execution = await saveNewData();
@@ -245,16 +245,14 @@ export const Agent: FC = () => {
     setAgent(agent);
     agent?.start();
 
-  
-
     va.track('Start', {
       model: model.id,
       agent: selectedAgent.id,
       iterations: iterations.id,
     });
-    const resp=await lawGPT(msg);
+    const resp = await lawGPT(msg);
     console.log(resp);
-    
+
     const message: Message = {
       id: 1,
       type: 'objective',
@@ -262,8 +260,7 @@ export const Agent: FC = () => {
     };
     messageHandler(message);
     console.log(messages);
-    console.log(execution)
-      
+    console.log(execution);
   };
 
   const stopHandler = () => {
