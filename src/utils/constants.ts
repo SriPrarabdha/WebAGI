@@ -58,6 +58,12 @@ export const AGENT = [
     message: '🤖/🔎/📄',
   },
   { id: 'babyagi', name: 'BabyAGI', icon: '👶', message: '🤖' },
+  {
+    id: 'criminallaw',
+    name: 'CriminalLaw',
+    icon: '🔎',
+    message: 'Welcome to criminal law',
+  },
 ];
 
 export const THEME = [
