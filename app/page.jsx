@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="">
+    <>
       <Nav />
       <main className="py-15 bg-std-pattern grid grid-rows-4 items-center justify-between bg-white bg-center p-2 pt-20 md:min-h-screen  md:grid-cols-5 md:grid-rows-1">
         <div className="hidden md:col-span-1 md:block ">
@@ -170,6 +170,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-    </div>
+    </>
   );
 }
