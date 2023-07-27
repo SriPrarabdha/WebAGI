@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import type { GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import nextI18NextConfig from '../../next-i18next.config.js';
-import { languages } from '../utils/languages';
+import { languages } from '../utils/languages.js';
 import { STATE_KEY } from '@/utils/constants';
 import { UIState } from '@/types/index.js';
 import { CollapsedButton } from '@/components/Sidebar/CollapsedButton';
